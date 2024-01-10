@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+.body{
+    background-color: aqua;
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+.main-continer{
+    align-items: center;
+    margin-top: 30vh;
+}
+.container{
+    background-image: url("images.jpeg");
+    background-size: cover;
+    width: 40%;
+    height: 40vh;
+    padding: 38px;
+
+}
+.image1 img{
+    width: 30%
+}
+
+.input-button{
+    margin-top: 10px;
+}
+.input-button input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+.input-button button{
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    color:white;
+}
+.bottomcontainer{
+    margin-top: 10px;
+
+}
+.bottomcontainer input{
+    margin-right: 5px;
+}
+.bottomcontainer label{
+    margin-right: 5px;
+}
+.generate{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.generate button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+.generate button:hover{
+    background-color: white;
+    color: blue;
+}
